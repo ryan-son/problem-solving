@@ -5,6 +5,4 @@
 //  Created by Geonhee on 2022/11/14.
 //
 
-import Foundation
-
-print("Hello, World!")
+p2753()
