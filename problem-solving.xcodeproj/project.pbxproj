@@ -92,6 +92,15 @@
 		AAED505B292261C4001905F6 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				AAED507D2923E432001905F6 /* Retry */,
+				AAED507C2923E42C001905F6 /* Solved */,
+			);
+			path = BOJ;
+			sourceTree = "<group>";
+		};
+		AAED507C2923E42C001905F6 /* Solved */ = {
+			isa = PBXGroup;
+			children = (
 				AAED507A2923E369001905F6 /* P2438.swift */,
 				AAED506629226F80001905F6 /* P2480.swift */,
 				AAED506229226D09001905F6 /* P2525.swift */,
@@ -103,10 +112,17 @@
 				AAED50742923E1B2001905F6 /* P11021.swift */,
 				AAED50782923E28B001905F6 /* P11022.swift */,
 				AAED505E2922678D001905F6 /* P14681.swift */,
-				AAED50722923DBBB001905F6 /* P15552.swift */,
 				AAED50702923D3FB001905F6 /* P25304.swift */,
 			);
-			path = BOJ;
+			path = Solved;
+			sourceTree = "<group>";
+		};
+		AAED507D2923E432001905F6 /* Retry */ = {
+			isa = PBXGroup;
+			children = (
+				AAED50722923DBBB001905F6 /* P15552.swift */,
+			);
+			path = Retry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
