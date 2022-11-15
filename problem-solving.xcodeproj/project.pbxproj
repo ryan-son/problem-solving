@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA483F4F2923E897003A6A3E /* P10951.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA483F4E2923E897003A6A3E /* P10951.swift */; };
 		AAED505429225FAE001905F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED505329225FAE001905F6 /* main.swift */; };
 		AAED505D29226239001905F6 /* P2753.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED505C29226239001905F6 /* P2753.swift */; };
 		AAED505F2922678D001905F6 /* P14681.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED505E2922678D001905F6 /* P14681.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA483F4E2923E897003A6A3E /* P10951.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P10951.swift; sourceTree = "<group>"; };
 		AAED505029225FAE001905F6 /* problem-solving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "problem-solving"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAED505329225FAE001905F6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AAED505C29226239001905F6 /* P2753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2753.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				AAED506029226A3F001905F6 /* P2884.swift */,
 				AAED506E29227BCC001905F6 /* P8393.swift */,
 				AAED506A29227464001905F6 /* P10950.swift */,
+				AA483F4E2923E897003A6A3E /* P10951.swift */,
 				AAED50802923E5B8001905F6 /* P10952.swift */,
 				AAED50742923E1B2001905F6 /* P11021.swift */,
 				AAED50782923E28B001905F6 /* P11022.swift */,
@@ -202,6 +205,7 @@
 				AAED506F29227BCC001905F6 /* P8393.swift in Sources */,
 				AAED507B2923E369001905F6 /* P2438.swift in Sources */,
 				AAED505F2922678D001905F6 /* P14681.swift in Sources */,
+				AA483F4F2923E897003A6A3E /* P10951.swift in Sources */,
 				AAED506729226F80001905F6 /* P2480.swift in Sources */,
 				AAED506B29227464001905F6 /* P10950.swift in Sources */,
 				AAED505D29226239001905F6 /* P2753.swift in Sources */,
