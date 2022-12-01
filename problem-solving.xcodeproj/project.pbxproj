@@ -22,6 +22,7 @@
 		AA70D6FC293410F20046B6B9 /* P16395.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA70D6FB293410F20046B6B9 /* P16395.swift */; };
 		AA70D6FE293421150046B6B9 /* P11053.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA70D6FD293421150046B6B9 /* P11053.swift */; };
 		AA7DF3942937876C00A1178A /* P4673.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF3932937876C00A1178A /* P4673.swift */; };
+		AA7DF3962938DB4200A1178A /* P1065.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7DF3952938DB4200A1178A /* P1065.swift */; };
 		AAED505429225FAE001905F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED505329225FAE001905F6 /* main.swift */; };
 		AAED505D29226239001905F6 /* P2753.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED505C29226239001905F6 /* P2753.swift */; };
 		AAED505F2922678D001905F6 /* P14681.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAED505E2922678D001905F6 /* P14681.swift */; };
@@ -68,6 +69,7 @@
 		AA70D6FB293410F20046B6B9 /* P16395.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P16395.swift; sourceTree = "<group>"; };
 		AA70D6FD293421150046B6B9 /* P11053.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P11053.swift; sourceTree = "<group>"; };
 		AA7DF3932937876C00A1178A /* P4673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P4673.swift; sourceTree = "<group>"; };
+		AA7DF3952938DB4200A1178A /* P1065.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P1065.swift; sourceTree = "<group>"; };
 		AAED505029225FAE001905F6 /* problem-solving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "problem-solving"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAED505329225FAE001905F6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AAED505C29226239001905F6 /* P2753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2753.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		AAED507C2923E42C001905F6 /* Solved */ = {
 			isa = PBXGroup;
 			children = (
+				AA7DF3952938DB4200A1178A /* P1065.swift */,
 				AA483F502923EA3B003A6A3E /* P1110.swift */,
 				AA483F602923FFD6003A6A3E /* P1546.swift */,
 				AAED507A2923E369001905F6 /* P2438.swift */,
@@ -204,7 +207,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					AAED504F29225FAE001905F6 = {
 						CreatedOnToolsVersion = 14.0;
@@ -236,6 +239,7 @@
 			files = (
 				AA483F5F2923FD88003A6A3E /* P3052.swift in Sources */,
 				AAED50792923E28B001905F6 /* P11022.swift in Sources */,
+				AA7DF3962938DB4200A1178A /* P1065.swift in Sources */,
 				AA483F512923EA3B003A6A3E /* P1110.swift in Sources */,
 				AA7DF3942937876C00A1178A /* P4673.swift in Sources */,
 				AA483F612923FFD6003A6A3E /* P1546.swift in Sources */,
@@ -304,6 +308,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -364,6 +369,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -387,7 +393,9 @@
 		AAED505829225FAE001905F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = V5CFURAVD9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -398,7 +406,9 @@
 		AAED505929225FAE001905F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = V5CFURAVD9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
